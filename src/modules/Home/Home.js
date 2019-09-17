@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Header from '../Header/Header'
+import Button from 'react-bootstrap/Button';
 import './styles.css';
 
 export default class Home extends React.Component {
@@ -12,7 +12,7 @@ export default class Home extends React.Component {
         return(
             <div>
                 this is home
-                <Link to='/contactos'>Contactos</Link>
+                <Button href="/contactos">Contactos!!!</Button>
             </div>
         )
     }
