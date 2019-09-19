@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Header from '../Header/Header'
+import HeaderButtons from '../HeaderButtons/HeaderButtons'
 import Contact from '../Contact/Contact'
 import Home from '../Home/Home'
 import './styles.css';
@@ -16,6 +17,7 @@ export default class Body extends React.Component {
         return(
             <Router>
                 <Header />
+                <HeaderButtons />
                 <div className="main">
                     <Route exact path="/" component={Home}/>
                     <Route path="/contactos" component={Contact}/>
