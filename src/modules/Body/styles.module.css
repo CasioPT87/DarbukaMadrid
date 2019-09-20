@@ -1,0 +1,15 @@
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    /* top right bottom left */
+    margin: 0 30px 15px 30px;
+    background-color: violet;
+}
+
+@media only screen and (max-width: 800px) {
+    .main_media {
+        margin: 0 0px 15px 0px;
+    }
+}
