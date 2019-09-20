@@ -10,19 +10,11 @@ export default class HeaderButtons extends React.Component {
 
     render() {
         return(
-            <Container fluid={true} className={css.container}>
-                <Row>
-                    <Col>
-                        <Button href="/contactos">Contactos!!!</Button>
-                    </Col>
-                    <Col>
-                        <Button href="/contactos">Contactos!!!</Button>
-                    </Col>
-                    <Col>
-                        <Button href="/contactos">Contactos!!!</Button>
-                    </Col>
-                </Row>
-            </Container>
+            <div className={css.container}>
+                <Button  className={css.button} href="/contactos">Contactos!!!</Button>   
+                <Button  className={css.button} href="/contactos">Contactos!!!</Button>    
+                <Button  className={css.button} href="/contactos">Contactos!!!</Button>
+            </div>
         )
     }
 }

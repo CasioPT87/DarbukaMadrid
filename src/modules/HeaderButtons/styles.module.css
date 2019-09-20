@@ -1,14 +1,17 @@
 
 .container {
-    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    background-color: orange;
 }
 
-.underline {
-    height: 15px;
-    width: 100%;
-    background-color: #B80F15;
+.button {
+    display: flex;
+    flex-grow: 1;
+    margin: 20px;
 }
-
 
 
 
