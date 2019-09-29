@@ -4,6 +4,7 @@ import cx from 'classnames'
 import Header from '../Header/Header'
 import HeaderButtons from '../HeaderButtons/HeaderButtons'
 import Contact from '../Contact/Contact'
+import Footer from '../Footer/Footer'
 import Home from '../Home/Home'
 import css from './styles.module.css';
 
@@ -23,6 +24,7 @@ export default class Body extends React.Component {
                     <Route exact path="/" component={Home}/>
                     <Route path="/contactos" component={Contact}/>
                 </div>
+                <Footer />
             </Router>   
         )
     }

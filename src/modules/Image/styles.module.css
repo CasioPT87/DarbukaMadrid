@@ -1,0 +1,17 @@
+
+.imageContainer {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+
+.image {
+    max-width: 70%;
+}
+
+@media only screen and (max-width: 800px) {
+    .image {
+        max-width: 100%;
+    }
+}
