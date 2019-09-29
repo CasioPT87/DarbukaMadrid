@@ -10,10 +10,12 @@ export default class HeaderButtons extends React.Component {
 
     render() {
         return(
-            <div className={css.container}>
-                <Button  className={css.button} href="/contactos">Contactos!!!</Button>   
-                <Button  className={css.button} href="/contactos">Contactos!!!</Button>    
-                <Button  className={css.button} href="/contactos">Contactos!!!</Button>
+            <div className={css.wrapper}>
+                <div className={css.container}>
+                    <button className={css.button} href="/">MÚSICA ÁRABE Y ANDALUSÍ</button>   
+                    <button className={css.button} href="/contactos">RITMOS</button>    
+                    <button className={css.button} href="/contactos">CLASES DE DARBUKA</button>
+                </div>
             </div>
         )
     }

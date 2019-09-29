@@ -16,14 +16,16 @@ export default class Home extends React.Component {
     render() {
         return(
             <div>
-                <Title>
-                    Title del Home
+                <Title h4>
+                    Cultura Árabe y Al-Ándalus
                 </Title>
+                
+                <Image image={portada} name="portada"/>
+                <Text text={homeText.text} />
+
                 <Video text={FirstVideoText} textHeader={FirstVideoTextHeader}>
                     <FirstVideo />
                 </Video>
-                <Image image={portada} name="portada"/>
-                <Text text={homeText.text} />
             </div>
         )
     }
