@@ -15,7 +15,7 @@ export default class List extends React.Component {
                 { this.props.list.map((line, index) => {
                     const even = index % 2
                     return (
-                        <div className={cx(css.line, even ? css.even : css.odd)}>line</div>
+                        <div className={cx(css.line, even ? css.even : css.odd)}>{line}</div>
                     )
                 })
                 }
