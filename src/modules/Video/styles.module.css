@@ -1,0 +1,29 @@
+
+.videoContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 10px 0px;
+    padding: 30px;
+}
+
+.video {
+    max-width: 70%;
+}
+
+.textoContainer {
+    background-color: green;
+    padding: 10px;
+    margin-top: -5px;
+}
+
+.textoHeaderContainer {
+    background-color: green;
+    padding: 10px;
+    margin-top: -5px;
+}
+
+@media only screen and (max-width: 800px) {
+    .video {
+        max-width: 100%;
+    }
+}

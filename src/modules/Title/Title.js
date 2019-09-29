@@ -11,7 +11,9 @@ export default class Title extends React.Component {
     render() {
         return(
             <div className={css.title_container}>
-                <h3 className={css.title}>{this.props.children}</h3>  
+                {this.props.h2 && <h2 className={css.title}>{this.props.children}</h2>}
+                {this.props.h3 && <h3 className={css.title}>{this.props.children}</h3>}
+                {this.props.h4 && <h4 className={css.title}>{this.props.children}</h4>}
             </div> 
         )
     }
