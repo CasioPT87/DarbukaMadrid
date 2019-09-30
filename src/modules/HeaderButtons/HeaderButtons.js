@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Container, Row ,Col }  from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import header from '../../assets/images/General/header.jpg'
 import css from './styles.module.css'
 
@@ -12,9 +12,21 @@ export default class HeaderButtons extends React.Component {
         return(
             <div className={css.wrapper}>
                 <div className={css.container}>
-                    <button className={css.button} href="/">MÚSICA ÁRABE Y ANDALUSÍ</button>   
-                    <button className={css.button} href="/contactos">RITMOS</button>    
-                    <button className={css.button} href="/contactos">CLASES DE DARBUKA</button>
+                    <Link to="/">
+                        <div className={css.button}>
+                            MÚSICA ÁRABE Y ANDALUSÍ
+                        </div>
+                    </Link>   
+                    <Link to="/ritmos">
+                        <div className={css.button}>
+                            RITMOS
+                        </div>
+                    </Link>
+                    <Link to="/">
+                        <div className={css.button}>
+                            CLASES DE DARBUKA
+                        </div>
+                    </Link>
                 </div>
             </div>
         )
