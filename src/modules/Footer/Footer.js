@@ -16,11 +16,6 @@ export default class Footer extends React.Component {
                         <a className={css.button} href="https://www.facebook.com/profile.php?id=100010358526069">Facebook</a>    
                         <a className={css.button} href="https://www.youtube.com/channel/UCYxXTkdImbDUvFGAgQNMlBw">Canal de Youtube</a>
                     </div>
-                    <div className={css.footerSecondCol}>
-                        <a className={css.button} href="/contactos">Contactos!!!</a>   
-                        <a className={css.button} href="/contactos">Contactos!!!</a>    
-                        <a className={css.button} href="/contactos">Contactos!!!</a>
-                    </div>
                 </div>
                 
             </div>

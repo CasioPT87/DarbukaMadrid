@@ -2,6 +2,7 @@
 .textContainer {
     /* top right bottom left */
     margin: 10px 100px 10px 100px;
+    color: #757575;
 }
 
 @media only screen and (max-width: 800px) {

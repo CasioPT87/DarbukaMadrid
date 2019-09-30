@@ -5,23 +5,24 @@
     /* top right bottom left */
     margin-top: 10px;
     padding-bottom: 10px;
-    background-color: grey;
+    background-color: #353535;
 }
 
 .footerHeader {
-    background-color: blue;
+    background-color: #b80f15;
     height: 20px;
 }
 
 .footerContent {
     display: flex;
     flex-direction: row;
+    color: white;
 }
 
 .footerFirstCol {
     display: flex;
     flex-direction: column;
-    flex-grow: 0.5;
+    flex-grow: 1;
 }
 
 .footerSecondCol {
