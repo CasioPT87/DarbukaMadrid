@@ -53,8 +53,8 @@ export default class Board extends React.Component {
                                             <YouTube
                                                 videoId={video}
                                                 opts={{
-                                                    width: '250',
-                                                    height: '200',
+                                                    width: '200',
+                                                    height: '150',
                                                 }}
                                             />
                                         </ div>

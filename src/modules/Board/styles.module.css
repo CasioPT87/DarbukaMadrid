@@ -47,8 +47,8 @@
 }
 
 .image {
-    width: 250px;
-    height: 200px;
+    width: 200px;
+    height: 150px;
     margin-right: 5px;
 }
 
@@ -59,7 +59,7 @@
 @media only screen and (max-width: 800px) {
     .image {
         width: 100%;
-        max-width: 250px;
+        max-width: 200px;
         height: auto;
         margin-top: 5px;
     }
