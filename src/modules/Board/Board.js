@@ -1,14 +1,31 @@
 import React from 'react';
 import { Image, Container, Row ,Col }  from 'react-bootstrap';
-import header from '../../assets/images/General/header.jpg'
 import css from './styles.module.css'
 
 export default class Board extends React.Component {
+
+    state = {
+        images: null
+    }
     constructor(props) {
         super(props)
     }
 
+    componentDidMount() {
+        this.resolve()
+    }
+
+    resolve = async () => {
+        import(`../../assets/images/2tiempos/ayub.jpg`).then(image => {
+            console.log(image)
+            this.setState({
+                images: [image]
+            });
+        }).catch(e => console.log(e))
+    }
+
     render() {
+        if (!this.state.images) return null
         return(
             <div className={css.container}>
                 <div className={css.textContainer}>
@@ -16,9 +33,9 @@ export default class Board extends React.Component {
                     <div className={css.text}>{this.props.text}</div>
                 </div>
                 <div className={css.assetsContainer}>
-                    {this.props.images.map((image) => {
+                     {this.state.images.map((image) => {
                         return (
-                            <img className={css.image} src={image} />
+                            <img className={css.image} src={image.default} />
                         )
                     })}
                     {this.props.videos.map((video) => {
