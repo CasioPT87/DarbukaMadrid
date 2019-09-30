@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: transparent;
 }
 
 .container {
@@ -14,25 +14,26 @@
     flex-wrap: no-wrap;
     margin-top: 5px;
     margin-bottom: 5px;
-    background-color: orange;
+    background-color: #7c7c7c;
 }
 
 .textContainer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: green;
     min-width: 150px;
     max-width: 150px;
     padding: 10px;
+    color: white;
 }
 
 .title {
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .text {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .assetsContainer {
@@ -43,7 +44,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    background-color: aqua;
+    background-color: #cccccc;
 }
 
 .imageWrapper {
