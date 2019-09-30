@@ -17,7 +17,8 @@ export default class Board extends React.Component {
     }
 
     resolve = async () => {
-        BoardMap.forEach(rythm => {
+        const sortedBoardMap = BoardMap.sort((a, b) => a.index - b.index)
+        sortedBoardMap.forEach(rythm => {
             let stateRythm = {
                 ...rythm,
             }

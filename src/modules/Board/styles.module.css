@@ -1,8 +1,9 @@
 .wrapper {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    align-items: center;
+    background-color: red;
 }
 
 .container {
@@ -11,6 +12,8 @@
     width: 80%;
     max-width: 1200px;
     flex-wrap: no-wrap;
+    margin-top: 5px;
+    margin-bottom: 5px;
     background-color: orange;
 }
 
