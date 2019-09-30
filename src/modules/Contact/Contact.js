@@ -1,6 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Header from '../Header/Header'
+import image from '../../assets/images/2tiempos/ayub.jpg';
+import Board from '../Board/Board'
 import './styles.css';
 
 
@@ -13,7 +13,12 @@ export default class Contact extends React.Component {
     render() {
         return(
             <div>
-                this is contact
+                <Board 
+                    title="este es un ritmo muy bonito"
+                    text="pero bonito, bonito..."
+                    images={[image]}
+                    videos={['https://www.youtube.com/embed/2BVwxOrrpgQ']}
+                />
             </div>
         )
     }

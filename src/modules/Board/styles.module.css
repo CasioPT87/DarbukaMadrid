@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    background-color: orange;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: black;
+}
+
+.title {
+    font-size: 12px;
+}
+
+.text {
+    font-size: 10px;
+}
+
+.assetsContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    width: 250px;
+}
+
+.video {
+    width: 250px;
+}
+
+
+
+
+
+
+
+
