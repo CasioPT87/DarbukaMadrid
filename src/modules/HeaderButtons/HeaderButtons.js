@@ -1,7 +1,5 @@
 import React from 'react';
-import cx from 'classnames';
 import { Link } from "react-router-dom";
-import header from '../../assets/images/General/header.jpg'
 import css from './styles.module.css'
 
 export default class HeaderButtons extends React.Component {

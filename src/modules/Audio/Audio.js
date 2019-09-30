@@ -1,7 +1,5 @@
 import React from 'react';
 import AudioPlayer from "react-h5-audio-player";
-import { Button, Container, Row ,Col }  from 'react-bootstrap';
-import header from '../../assets/images/General/header.jpg'
 import css from './styles.module.css'
 
 export default class Audio extends React.Component {
@@ -11,9 +9,12 @@ export default class Audio extends React.Component {
 
     render() {
         return(
-            <AudioPlayer
-                src={this.props.audio}
-            />
+            <div className={css.wrapper}>
+                <AudioPlayer
+                    src={this.props.audio}
+                    className={css.audio}
+                />
+            </div>
         )
     }
 }

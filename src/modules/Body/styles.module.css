@@ -5,11 +5,13 @@
     flex-grow: 1;
     /* top right bottom left */
     margin: 0 30px 15px 30px;
-    background-color: violet;
+    background-color: white;
+    max-width: 1200px;
 }
 
 @media only screen and (max-width: 800px) {
-    .main_media {
+    .main {
         margin: 0 0px 15px 0px;
+        width: 100%;
     }
 }

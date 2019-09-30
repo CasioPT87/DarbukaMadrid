@@ -28,7 +28,7 @@ export default class Home extends React.Component {
                 <Image image={portada} name="portada"/>
                 <Text text={homeText.text_1} />
                 <Title h4>
-                    MÚSICA EN AL-ÁNDALUS
+                    Música en AL-ÁNDALUS
                 </Title>
                 <Text text={homeText.text_2} />
                 <Video text={FirstVideoText}>

@@ -1,39 +1,14 @@
-
-.footerContainer {
+.wrapper {
     display: flex;
-    flex-direction: column;
-    /* top right bottom left */
-    margin-top: 10px;
-    padding-bottom: 10px;
-    background-color: grey;
+    justify-content: center;
 }
 
-.footerHeader {
-    background-color: blue;
-    height: 20px;
+.audio {
+    width: 50%;
 }
 
-.footerContent {
-    display: flex;
-    flex-direction: row;
-}
-
-.footerFirstCol {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 0.5;
-}
-
-.footerSecondCol {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 0.5;
-}
-
-.button {
-    border-radius: 0px;
-    border: none;
-    cursor: pointer;
-    padding: 7px;
-    background-color: transparent;
+@media only screen and (max-width: 800px) {
+    .audio {
+        width: 90%;
+    }
 }

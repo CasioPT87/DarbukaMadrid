@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image, Container, Row ,Col }  from 'react-bootstrap';
-import header from '../../assets/images/General/header.jpg'
+import header from '../../assets/images/General/image_top.jpg'
 import css from './styles.module.css'
 
 export default class Header extends React.Component {
