@@ -1,5 +1,4 @@
 import React from 'react';
-import { Image, Container, Row ,Col }  from 'react-bootstrap';
 import header from '../../assets/images/General/image_top.jpg'
 import css from './styles.module.css'
 
@@ -8,14 +7,14 @@ export default class Header extends React.Component {
         super(props)
     }
 
-    render() {
+    render () {
         return(
-            <React.Fragment>
-                <Container fluid={true} className={css.container}>
-                    <Image src={header} className={['mx-auto', 'd-block']} />  
-                </Container>
-                <Container fluid={true} className={css.underline} />
-            </React.Fragment>     
+            <div className={css.wrapper}>
+                <div>
+                    <img src={header} className={css.image} />  
+                </div>
+                <div className={css.underline} />
+            </div>     
         )
     }
 }

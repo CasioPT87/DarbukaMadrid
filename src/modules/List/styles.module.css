@@ -12,12 +12,12 @@
 }
 
 .even {
-    background-color: #b5b5b5;
-    color: white;
+    background-color: white;
 }
 
 .odd {
-    background-color: white;
+    background-color: #b5b5b5;
+    color: white;
 }
 
 @media only screen and (max-width: 800px) {

@@ -1,12 +1,26 @@
 
-.container {
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: black;
+}
+
+.image {
+    width: 100%;
+    height: auto;
 }
 
 .underline {
     height: 15px;
     width: 100%;
     background-color: #B80F15;
+}
+
+@media only screen and (max-width: 800px) {
+    .underline {
+        display: none;
+    }
 }
 
 
