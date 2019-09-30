@@ -38,6 +38,21 @@ const list = {
         'MOHAMED ABDO (1949-) Arabia Saudi',
         'IBTISAM LUTFI Arabia Saudi',
         'MOHAMED ROUICHA (1950-2012) Marruecos',
+    ],
+    bailarinas: [
+        'SAMIA GAMAL',
+        'SOUHEIR ZAKI',
+        'NAGWA FOUAD',
+        'NAIMA AKEF',
+        'NAHED SABRI',
+        'AZZA SHERIF',
+        'KITTY',
+        'TANIA CARIOCA',
+        'ZEENAT ALAWI',
+        'LEILA AL JAZAIRIA',
+        'ZIZI MOSTAFA',
+        'FARIDA FAHMY',
+        'FIFI ABDOU'
     ]
 }
 
