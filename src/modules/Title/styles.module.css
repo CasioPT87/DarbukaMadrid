@@ -3,9 +3,18 @@
 .title_container {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .title {
     margin: 15px;
     color: #757575;
+}
+
+.topMargin {
+    margin-top: 25px;
+}
+
+.bottomMargin {
+    margin-bottom: 15px;
 }
