@@ -2,9 +2,7 @@ const list = {
     first: [
         'OMAR EL BACH (1885-1950) Siria',
         'MOHAMED ABDEL MOTTALEB (1890-1925) Egipto',
-        'SAYET DARWIS (1892-1923) Egipto'
-    ],
-    second: [
+        'SAYET DARWIS (1892-1923) Egipto',
         'MOHAMED El QASABGI (1892-1966) Egipto',
         'CHEIKH EL AFRIT (1897-1964) Túnez',
         'ZAKARIA AHMED (1898- 1961) Egipto',
@@ -16,6 +14,9 @@ const list = {
         'LAILA MURAD (1918-1995) Egipto',
         'SABRI MOUDALLAL (1918-2006) Siria',
         'WADI EL SAFI (1921-2013) Líbano',
+    ],
+    second: [
+        
     ],
     third: [
         'AFIFA ISKANDAR (1921-2013) Iraq',

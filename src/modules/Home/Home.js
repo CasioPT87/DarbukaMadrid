@@ -41,9 +41,6 @@ export default class Home extends React.Component {
                 <Audio audio={poche_3} />
                 <Title h4>Intérpretes y compositores:</ Title>
                 <List list={list.first} />
-                <Video>
-                    <SecondVideo />
-                </Video>
                 <List list={list.second} />
                 <Video>
                     <ThirdVideo />
