@@ -8,7 +8,7 @@ export default [
             name: 'ayub',
         },
         videos: [
-            '2BVwxOrrpgQ'
+            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
         ]
     }
 ]
