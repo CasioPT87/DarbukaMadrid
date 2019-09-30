@@ -1,0 +1,18 @@
+
+.container {
+    padding: 40px;
+}
+
+
+.linksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+    padding: 100px;
+    padding-top: 60px;
+}
+
+.linksContainer a {
+    padding: 10px;
+}

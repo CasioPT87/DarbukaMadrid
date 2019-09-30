@@ -16,7 +16,7 @@ export default class Rythms extends React.Component {
     render() {
         return(
             <div>
-                <Title h5>
+                <Title h4>
                    Ritmos
                 </ Title>
                 <Board />

@@ -5,6 +5,7 @@ import HeaderButtons from '../HeaderButtons/HeaderButtons'
 import Rythms from '../Rythms/Rythms'
 import Footer from '../Footer/Footer'
 import Home from '../Home/Home'
+import Friends from '../Friends/Friends'
 import Datos from '../Datos/Datos'
 import css from './styles.module.css';
 
@@ -23,6 +24,7 @@ export default class Body extends React.Component {
                         <Route exact path="/" component={Home}/>
                         <Route path="/ritmos" component={Rythms}/>
                         <Route path="/contacto" component={Datos}/>
+                        <Route path="/amigas" component={Friends}/>
                     </div>
                 </div>
                 <Footer />
