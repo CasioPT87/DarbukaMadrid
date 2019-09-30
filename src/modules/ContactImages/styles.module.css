@@ -1,0 +1,19 @@
+.imagesWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: yellow;
+}
+
+.imagesWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.image {
+    max-width: 300px;
+    height: auto;
+    margin: 15px;
+}
