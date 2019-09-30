@@ -1,11 +1,12 @@
 import React from 'react';
-import { Image, Container, Row ,Col }  from 'react-bootstrap';
+import BoardMap  from './BoardMap';
+import YouTube from 'react-youtube';
 import css from './styles.module.css'
 
 export default class Board extends React.Component {
 
     state = {
-        images: null
+        rythms: []
     }
     constructor(props) {
         super(props)
@@ -16,35 +17,55 @@ export default class Board extends React.Component {
     }
 
     resolve = async () => {
-        import(`../../assets/images/2tiempos/ayub.jpg`).then(image => {
-            console.log(image)
-            this.setState({
-                images: [image]
-            });
-        }).catch(e => console.log(e))
+        BoardMap.forEach(rythm => {
+            let stateRythm = {
+                ...rythm,
+            }
+
+            import(`../../assets/images/${rythm.image.folder}/${rythm.image.name}.jpg`).then(image => {
+                stateRythm.image = image
+                this.setState(state => {
+                    return {
+                        rythms: state.rythms.concat(stateRythm)
+                    }
+                });
+            }).catch(e => console.log(e))
+        })  
     }
 
     render() {
-        if (!this.state.images) return null
+        if (!this.state.rythms) return null
         return(
-            <div className={css.container}>
-                <div className={css.textContainer}>
-                    <div className={css.title}>{this.props.title}</div>
-                    <div className={css.text}>{this.props.text}</div>
-                </div>
-                <div className={css.assetsContainer}>
-                     {this.state.images.map((image) => {
-                        return (
-                            <img className={css.image} src={image.default} />
-                        )
-                    })}
-                    {this.props.videos.map((video) => {
-                        return (
-                            <iframe width="560" height="315" src={video} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        )
-                    })}
-                </div>
-            </div>  
+            <div className={css.wrapper}>
+                {this.state.rythms.map(rythm => {
+                    return(
+                        <div className={css.container}>
+                            <div className={css.textContainer}>
+                                <div className={css.title}>{rythm.title}</div>
+                                <div className={css.text}>{rythm.text}</div>
+                            </div>
+                            <div className={css.assetsContainer}>
+                                    <img className={css.image} src={rythm.image.default} />
+
+                                {rythm.videos.map((video) => {
+                                    return (
+                                        <div className={css.videoWrapper}>
+                                            <YouTube
+                                                videoId={video}
+                                                opts={{
+                                                    width: '250',
+                                                    height: '200',
+                                                }}
+                                            />
+                                        </ div>
+                                    )
+                                })}
+                            </div>
+                        </div>  
+                    )
+
+                })}
+            </div>
         )
     }
 }

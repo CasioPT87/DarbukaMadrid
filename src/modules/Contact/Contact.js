@@ -13,12 +13,7 @@ export default class Contact extends React.Component {
     render() {
         return(
             <div>
-                <Board 
-                    title="este es un ritmo muy bonito"
-                    text="pero bonito, bonito..."
-                    images={[image]}
-                    videos={['https://www.youtube.com/embed/2BVwxOrrpgQ']}
-                />
+                <Board />
             </div>
         )
     }
