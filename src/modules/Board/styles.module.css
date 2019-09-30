@@ -22,7 +22,8 @@
     flex-direction: column;
     justify-content: flex-start;
     background-color: green;
-    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
     padding: 10px;
 }
 

@@ -10,7 +10,7 @@ export default [
             name: 'malfuf',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'd9OvW706PBw'
         ]
     },
     {
@@ -22,7 +22,7 @@ export default [
             name: 'ayub',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'k3TLjTCYlPw'
         ]
     },
     {
@@ -34,7 +34,7 @@ export default [
             name: 'soudi',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'tcuoA90abls'
         ]
     },
     {
@@ -46,7 +46,7 @@ export default [
             name: 'libi',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'qPVV5OmqzZA', 'kwHD0s5r78Y'
         ]
     },
     {
@@ -58,7 +58,7 @@ export default [
             name: 'fallahi',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'loywyhtkNb0'
         ]
     },
     {
@@ -70,7 +70,7 @@ export default [
             name: 'fallahi',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'f_TVJkCi45Y'
         ]
     },
     {
@@ -82,7 +82,7 @@ export default [
             name: 'darig_tunecino',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'acB0nnVUTeQ'
         ]
     },
     {
@@ -94,7 +94,7 @@ export default [
             name: 'darig_samai',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'SHgfitcD97c'
         ]
     },
     {
@@ -106,7 +106,7 @@ export default [
             name: 'yoruk_samai',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'YJKuxswtFBU'
         ]
     },
     // 4 tiempos binarion
@@ -119,11 +119,23 @@ export default [
             name: 'wahda',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'cjgc-fpLCds'
         ]
     },
     {
         index: 10,
+        title: 'BALADI',
+        text: '',
+        image: {
+            folder: '4tiempos',
+            name: 'baladi',
+        },
+        videos: [
+            'YPerkt8xbaI'
+        ]
+    },
+    {
+        index: 11,
         title: 'MAKSUM',
         text: '',
         image: {
@@ -131,11 +143,11 @@ export default [
             name: 'maksum',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'N6z3SkQg-lE'
         ]
     },
     {
-        index: 11,
+        index: 12,
         title: 'SAIDI',
         text: '',
         image: {
@@ -143,11 +155,11 @@ export default [
             name: 'saidi',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'l32ujW-Izg8', 'pPPy_PbP2W0'
         ]
     },
     {
-        index: 12,
+        index: 13,
         title: 'SOMBATI',
         text: '',
         image: {
@@ -155,11 +167,11 @@ export default [
             name: 'sombati',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'Mu0gDmtHwUM'
         ]
     },
     {
-        index: 13,
+        index: 14,
         title: 'DABKE,NAWARI',
         text: '',
         image: {
@@ -167,11 +179,11 @@ export default [
             name: 'dabke',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'OLYoR25vcaw'
         ]
     },
     {
-        index: 14,
+        index: 15,
         title: 'JERK',
         text: '',
         image: {
@@ -179,11 +191,11 @@ export default [
             name: 'jerk',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'p1iDsIT59tk'
         ]
     },
     {
-        index: 15,
+        index: 16,
         title: 'BOLERO Y RUMBA MARSI',
         text: 'Se diferencian en la velocidad el Bolero es más lento.',
         image: {
@@ -191,11 +203,11 @@ export default [
             name: 'marsi',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'G3BG4sogchU', 'uglJs7Pim6A'
         ]
     },
     {
-        index: 16,
+        index: 17,
         title: 'ZAFFA',
         text: '',
         image: {
@@ -203,12 +215,12 @@ export default [
             name: 'zaffa',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'y5JXcgjNheg'
         ]
     },
     // 8 tiempos binarios
     {
-        index: 17,
+        index: 18,
         title: 'BAMBI',
         text: '',
         image: {
@@ -216,11 +228,11 @@ export default [
             name: 'bambi',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'y5JXcgjNheg'
         ]
     },
     {
-        index: 18,
+        index: 19,
         title: 'MUSHALAS IRAQUILADI',
         text: '',
         image: {
@@ -228,11 +240,11 @@ export default [
             name: 'muthalat_iraqui',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'y5JXcgjNheg', 'WacKAYpz6IQ'
         ]
     },
     {
-        index: 19,
+        index: 20,
         title: 'MASMOUDI KEVIR DOS DUMS',
         text: '',
         image: {
@@ -240,11 +252,11 @@ export default [
             name: 'masmudi_2',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'WacKAYpz6IQ'
         ]
     },
     {
-        index: 20,
+        index: 21,
         title: 'MASMOUDI KEVIR TRES DUMS',
         text: '',
         image: {
@@ -252,11 +264,11 @@ export default [
             name: 'masmudi_3',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            '5RZ1XGJasc0'
         ]
     },
     {
-        index: 21,
+        index: 22,
         title: 'CHIFTETELI, WARDA KEVIR',
         text: '',
         image: {
@@ -264,12 +276,12 @@ export default [
             name: 'chifteteli',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'xM75Adbzkzg'
         ]
     },
     // ternarios
     {
-        index: 22,
+        index: 23,
         title: 'SAMAI TAEER, VALS',
         text: '',
         image: {
@@ -277,11 +289,11 @@ export default [
             name: 'vals',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            '5EaVNhpRDPA'
         ]
     },
     {
-        index: 23,
+        index: 24,
         title: 'DARIG',
         text: '',
         image: {
@@ -289,12 +301,12 @@ export default [
             name: 'darig_3',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'g3Ciy6T8x_s'
         ]
     },
     // otros
     {
-        index: 24,
+        index: 25,
         title: 'SAMAI (10 tiempos)',
         text: 'Uno de los ritmos más conocidos de la música andalusí y utilizado con multitud de melodias diferentes.',
         image: {
@@ -302,11 +314,11 @@ export default [
             name: 'samai',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            '-pVedaZKlFo'
         ]
     },
     {
-        index: 25,
+        index: 26,
         title: 'ZARAFAT (13 tiempos)',
         text: `Es un ritmo andalusí.
         En el primer vídeo el Ta y el Dum se invierten, contrariamente a como se toca tradicionalmente.`,
@@ -315,11 +327,23 @@ export default [
             name: 'zarafat',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'rJeXIVjIXw8', 'u-dKiSgI2hY'
         ]
     },
     {
-        index: 26,
+        index: 27,
+        title: 'DAWR INDI (7 tiempos)',
+        text: '',
+        image: {
+            folder: 'otros',
+            name: 'dawr_indi',
+        },
+        videos: [
+            '0J2JsHB90Mc'
+        ]
+    },
+    {
+        index: 28,
         title: 'AKSAK (9 tiempos)',
         text: 'Es un ritmo andalusí.',
         image: {
@@ -327,11 +351,11 @@ export default [
             name: 'aksak',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'DF4NQYFpiNQ'
         ]
     },
     {
-        index: 27,
+        index: 29,
         title: 'KARCILAMA',
         text: '',
         image: {
@@ -339,11 +363,11 @@ export default [
             name: 'karcilama',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'W4Y0N7RHw_Q'
         ]
     },
     {
-        index: 28,
+        index: 30,
         title: 'YURYUNA',
         text: '',
         image: {
@@ -351,7 +375,7 @@ export default [
             name: 'yuryuna',
         },
         videos: [
-            '2BVwxOrrpgQ', '2BVwxOrrpgQ'
+            'L9de-jCqMa4'
         ]
     },
 
