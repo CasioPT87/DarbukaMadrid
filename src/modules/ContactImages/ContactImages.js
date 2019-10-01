@@ -6,16 +6,13 @@ import image_4 from '../../assets/images/contacto/contacto_4.jpg'
 
 
 export default class ContactImages extends React.Component {
-    constructor(props) {
-        super(props)
-    }
-
+    
     render() {
         return(
             <div className={css.imagesWrapper}>
-                <img src={image_1} alt='Sara Moreno tocando' className={css.image} />
-                <img src={image_2} alt='Sara Moreno tocando' className={css.image} />
-                <img src={image_4} alt='Sara Moreno tocando' className={css.image} />
+                <img src={image_1} alt='Sara Moreno tocando 1' className={css.image} />
+                <img src={image_2} alt='Sara Moreno tocando 2' className={css.image} />
+                <img src={image_4} alt='Sara Moreno tocando 3' className={css.image} />
             </div>
         )
     }

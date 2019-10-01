@@ -4,13 +4,9 @@ import Text from '../Text/Text'
 import ContactImages from '../ContactImages/ContactImages'
 import css from './styles.module.css'
 import contactText from '../../assets/texts/contactText.js';
-import image_1 from '../../assets/images/contacto/contacto_1.jpg'
 
 export default class Contact extends React.Component {
-    constructor(props) {
-        super(props)
-    }
-
+    
     render() {
         return(
             <div>

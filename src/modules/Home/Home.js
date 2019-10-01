@@ -14,10 +14,7 @@ import poche_3 from '../../assets/audios/homeAudios/poche_3.ogg';
 import { list } from '../../assets/lists/homeList';
 
 export default class Home extends React.Component {
-    constructor(props) {
-        super(props)
-    }
-
+    
     render() {
         return(
             <div>

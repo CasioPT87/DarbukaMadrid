@@ -5,10 +5,7 @@ import cx from 'classnames'
 
 
 export default class Title extends React.Component {
-    constructor(props) {
-        super(props)
-    }
-
+    
     render() {
         const { topMargin, bottomMargin } = this.props
         return(

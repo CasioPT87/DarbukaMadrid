@@ -9,9 +9,6 @@ import css from './styles.module.css'
 
 
 export default class Rythms extends React.Component {
-    constructor(props) {
-        super(props)
-    }
 
     render() {
         return(

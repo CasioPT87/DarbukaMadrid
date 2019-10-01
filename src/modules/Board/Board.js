@@ -8,9 +8,6 @@ export default class Board extends React.Component {
     state = {
         rythms: []
     }
-    constructor(props) {
-        super(props)
-    }
 
     componentDidMount() {
         this.resolve()
@@ -40,13 +37,13 @@ export default class Board extends React.Component {
             <div className={css.wrapper}>
                 {this.state.rythms.map(rythm => {
                     return(
-                        <div className={css.container}>
+                        <div className={css.container} key={rythm.title}>
                             <div className={css.textContainer}>
-                                <div className={css.title}>{rythm.title}</div>
+                                <div className={css.title}>{rythm.c}</div>
                                 <div className={css.text}>{rythm.text}</div>
                             </div>
                             <div className={css.assetsContainer}>
-                                    <img className={css.image} src={rythm.image.default} />
+                                    <img className={css.image} src={rythm.image.default} alt={rythm.title} />
 
                                 {rythm.videos.map((video) => {
                                     return (

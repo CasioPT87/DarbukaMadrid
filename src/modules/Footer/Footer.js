@@ -3,10 +3,7 @@ import css from './styles.module.css'
 import { Link } from "react-router-dom";
 
 export default class Footer extends React.Component {
-    constructor(props) {
-        super(props)
-    }
-
+    
     render() {
         return(
             <div className={css.footerContainer}>

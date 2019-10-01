@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Body from './modules/Body/Body.js';
 import 'bootstrap/dist/css/bootstrap.min.css';

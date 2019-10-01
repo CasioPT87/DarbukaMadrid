@@ -3,10 +3,7 @@ import css from './styles.module.css';
 
 
 export default class Video extends React.Component {
-    constructor(props) {
-        super(props)
-    }
-
+    
     render() {
         return(
             <div className={css.videoContainer}>

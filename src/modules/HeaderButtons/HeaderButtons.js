@@ -3,10 +3,7 @@ import { Link } from "react-router-dom";
 import css from './styles.module.css'
 
 export default class HeaderButtons extends React.Component {
-    constructor(props) {
-        super(props)
-    }
-
+    
     render() {
         return(
             <div className={css.wrapper}>
