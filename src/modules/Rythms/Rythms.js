@@ -25,8 +25,8 @@ export default class Rythms extends React.Component {
                     <YouTube 
                         videoId='WcGgd3GkE5Y'
                         opts={{
-                            width: '500',
-                            height: '350',
+                            width: '350',
+                            height: '200',
                         }}
                     />
                 </div>

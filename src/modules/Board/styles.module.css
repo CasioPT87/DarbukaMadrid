@@ -72,6 +72,15 @@
     .assetsContainer {
         justify-content: start;
     }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .textContainer {
+        min-width: 150px;
+        max-width: 100%;
+    }
 }
 
 
