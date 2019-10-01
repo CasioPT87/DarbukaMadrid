@@ -33,7 +33,7 @@ export default class Board extends React.Component {
 
     render() {
         if (!this.state.rythms) return null
-        console.log(this.state.rythms)
+    
         return(
             <div className={css.wrapper}>
                 {this.state.rythms.map(rythm => {
