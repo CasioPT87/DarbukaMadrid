@@ -103,7 +103,7 @@ export default [
         text: 'Es muy utilizado en música andalusí.',
         image: {
             folder: '2tiempos',
-            name: 'yoruk_samai',
+            name: 'yuruk_samai',
         },
         videos: [
             'YJKuxswtFBU'

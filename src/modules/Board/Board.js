@@ -33,13 +33,14 @@ export default class Board extends React.Component {
 
     render() {
         if (!this.state.rythms) return null
+        console.log(this.state.rythms)
         return(
             <div className={css.wrapper}>
                 {this.state.rythms.map(rythm => {
                     return(
-                        <div className={css.container} key={rythm.title}>
+                        <div className={css.container} key={rythm.index}>
                             <div className={css.textContainer}>
-                                <div className={css.title}>{rythm.c}</div>
+                                <div className={css.title}>{rythm.title}</div>
                                 <div className={css.text}>{rythm.text}</div>
                             </div>
                             <div className={css.assetsContainer}>
@@ -47,7 +48,7 @@ export default class Board extends React.Component {
 
                                 {rythm.videos.map((video) => {
                                     return (
-                                        <div className={css.videoWrapper}>
+                                        <div className={css.videoWrapper} key={video}>
                                             <YouTube
                                                 videoId={video}
                                                 opts={{
